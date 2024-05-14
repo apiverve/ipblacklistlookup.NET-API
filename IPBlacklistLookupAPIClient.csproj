@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.IPBlacklistLookup</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/ipblacklistlookup</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>IP Blacklist Lookup is a simple tool for looking up if an IP address is in a blacklist. It returns the blacklist name and the reason for the blacklist.</Description>
+    <RepositoryUrl>https://github.com/apiverve/ipblacklistlookup-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>ip blacklist lookup; ip blacklist lookup api; ip blacklist lookup tool; ip blacklist lookup software; ip blacklist lookup service; ip blacklist lookup library; ip blacklist lookup sdk; ip blacklist lookup code; ip blacklist lookup script; ip blacklist lookup program; ip blacklist lookup application; ip blacklist lookup app; ip blacklist lookup utility; ip blacklist lookup helper; ip blacklist lookup helper tool; ip blacklist lookup helper software; ip blacklist lookup helper service; ip blacklist lookup helper library; ip blacklist lookup helper sdk; ip blacklist lookup helper code; ip blacklist lookup helper script; ip blacklist lookup helper program; ip blacklist lookup helper application; ip blacklist lookup helper app; ip blacklist lookup helper utility; ip blacklist lookup helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
