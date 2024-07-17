@@ -14,7 +14,7 @@
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageProjectUrl>https://apiverve.com/?utm_source=nuget</PackageProjectUrl>
     <SignAssembly>False</SignAssembly>
-    <Description>IP Blacklist Lookup is a simple tool for looking up if an IP address is in a blacklist. It returns the blacklist name and the reason for the blacklist.</Description>
+    <Description>IP Blacklist Lookup is a simple tool for looking up if an IP address is in a blacklist. It returns if the IP is found in a blacklist.</Description>
     <RepositoryUrl>https://github.com/apiverve/ipblacklistlookup.NET-API</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>ip blacklist lookup; ip blacklist lookup api; ip blacklist lookup tool; ip blacklist lookup software; ip blacklist lookup service</PackageTags>
