@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new ipblacklistlookupQueryOptions {
+var queryOptions = new IPBlacklistLookupQueryOptions {
   ip = "201.23.192.173"
 };
 ```
@@ -106,7 +106,8 @@ if(response.error != null) {
       "timezone": "America/Sao_Paulo"
     },
     "parsed": true
-  }
+  },
+  "code": 200
 }
 ```
 
